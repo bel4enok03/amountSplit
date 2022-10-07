@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финансы-Аренда квартиры</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+        <h1>Аренда квартиры</h1>
+
+        <form>
+
+            <p>Сумма 💸</p>
+            <span>руб
+            <input type="text" id="amount" placeholder="Сумма">
+            </span>
+
+            <p>Количество людей 🧑‍🤝‍🧑</p>
+            <span>
+                <input type="text" id="people" placeholder="Количество людей"> 
+            </span>
+            
+
+            <button id="btn">Рассчитать</button>
+        </form>
+
+        <div id="showTotalAmountToPay">
+                <div id="amountSplit">
+                    <p>Сумма</p>
+                    <span id="dividedBill"></span>
+                    <span>руб</span>
+                    <span>на одого человека</span>
+                </div>
+        </div>
+
+    </div>
+
+
+
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/script.js"></script>
+</body>
+</html>
