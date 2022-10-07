@@ -7,9 +7,6 @@ function calculateAmount(e) {
     const amount = document.querySelector("#amount").value;
     const people = document.querySelector("#people").value;
 
-    console.log(amount);
-
-
     if (amount === "" || people === "" || people < 1) {
         Swal.fire({
         icon: 'error',
